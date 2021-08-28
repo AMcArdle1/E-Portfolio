@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <title>Aaron McArdle || Contact Me</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <style>
+      body {
+        background-image: url("images/space-background5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .btn {
+        background-color: white;
+      }
+
+      .btn:hover {
+        background-color: blue;
+        color: white;
+      }
+    </style>
+
+  </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">AM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+<main>
+    <section class="py-5 text-center text-white container">
+        <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Contact Me</h1>
+            <p class="lead">
+              
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="col">
+            <div class="col-md-7 mx-auto">
+                <div class="card bg-dark text-white mt-2 p-2">
+                    <div class="card-body">
+                        <form class="row g-3" action="mailto:mcardle.aaron0@gmail.com" id="contact-form" method="post">
+                            <fieldset>
+                                <legend class="text-center colheader">Please fill out this form to contact me.</legend>
+                                <div class="form-group">
+                                    <div class="col-12">
+                                        <input id="name" name="full_name" type="text" placeholder="Full Name" class="form-control" required>
+                                    </div>
+                                </div>
+        
+                                <br>
+
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <input id="email" name="email" type="text" placeholder="Email Address" class="form-control" required>
+                                    </div>
+                                </div>
+        
+                                <br>
+
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <input id="subject" name="subject" type="text" placeholder="Subject" class="form-control">
+                                    </div>
+                                </div>
+                                
+                                <br>
+
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" id="message" name="messag" placeholder="Enter your Message here." rows="7" required></textarea>
+                                    </div>
+                                </div>
+        
+                                <br>
+
+                                <div class="form-group">
+                                    <div class="col-md-6 text-center">
+                                        <button type="submit" name="submit" class="btn btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    
+
+    </main>
+
+    <footer class="text-white py-5">
+    <div class="container text-center">
+        <p class="mb-0">
+          Created and Designed by: Aaron McArdle - 2021
+        </p>
+    </div>
+    </footer>      
+</body>
+</html>
