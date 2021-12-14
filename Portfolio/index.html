@@ -60,12 +60,17 @@
         border-bottom-color: #fff;
       }
 
+      .lead {
+        font-weight: bolder;
+      }
+
       /* Button */
-      .btn-secondary,
-      .btn-secondary:hover,
-      .btn-secondary:focus {
-        color:white;
-        text-shadow: none; /* Prevent inheritance from `body` */
+      .btn-secondary {
+        background: black;
+      }
+      .btn-secondary:hover {
+        color: fuchsia;
+        background: white;
       }
     </style>
 </head>
@@ -85,13 +90,22 @@
             </div>
         </header>
       <main class="px-3">
-        <h1>Aaron McArdle</h1>
-        <p class="lead">
-            Hello! Welcome to My Portfolio! <br>
-            Thank you for taking the time to stop by!</p>
-        <p class="lead">
-          <a href="about.html" class="btn btn-lg btn-secondary fw-bold border-white bg-dark">Let's Get Started!!!</a>
-        </p>
+        <div class="card bg-dark text-white mt-2 p-2">
+          <div class="card-body">
+            <div class="row">
+              <h1>Aaron McArdle</h1>
+              <p class="lead">
+                Hello! Welcome to My Portfolio! <br>
+                Thank you for taking the time to stop by!
+              </p>
+
+              <p class="lead">
+                <a href="about.html" class="btn btn-lg btn-secondary fw-bold border-white">Let's Get Started!!!</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        
       </main>
     
       <footer class="mt-auto text-white-50">

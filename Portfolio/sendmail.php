@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 
     mail($to,$subject,$message,$headers);
 
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    echo "Mail Sent. Thank you " . $first_name . ", I will contact you shortly.";
 
     }
 ?>
